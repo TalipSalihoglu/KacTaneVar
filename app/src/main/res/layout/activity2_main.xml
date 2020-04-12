@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3">
+
+    <TextView
+        android:id="@+id/txtSonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="200dp"
+        android:minWidth="175dp"
+        android:background="@color/colorWhite"
+        android:padding="75dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtSonuc"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorWhite"
+        android:textSize="30sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:text="@string/Sonuçlar"/>
+
+    <Button
+        android:id="@+id/btnOncekiSayfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OncekiSayfa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtSonuc"
+        android:textColor="@color/colorWhite"
+        android:background="@color/color3"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/Talip"
+        android:background="@color/color3"
+        android:src="@mipmap/githu" />
+
+    <TextView
+        android:id="@+id/Talip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/isimSoyisim"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

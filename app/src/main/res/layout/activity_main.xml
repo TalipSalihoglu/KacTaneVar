@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3">
+
+    <EditText
+        android:id="@+id/etMetin"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/tbSecenek"
+        android:background="@color/colorWhite"
+        android:enabled="true"
+        android:focusable="true"
+        android:hint="@string/metinGir"
+        android:inputType="textMultiLine"
+        android:isScrollContainer="true"
+        android:minLines="10"
+        android:padding="50dp"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tbSecenek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secimYap"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chKelime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kelimeSayisi"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chSesliharf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sesliHarfSayısi"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chSessizharf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sessizHarfSayısi"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chNoktalama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noktalamaSayi"
+            android:textStyle="bold" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnHesapla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tbSecenek"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/color3"
+        android:text="@string/Hesapla"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kac Tane Var</string>
+    <string name="OncekiSayfa"> Farklı Metin İle Dene </string>
+    <string name="isimSoyisim"> Talip Salihoglu </string>
+    <string name="metinGir"> Metini Buraya Giriniz </string>
+    <string name="secimYap"> Hesaplanmasını istediklerinizi seçiniz </string>
+    <string name="kelimeSayisi">Kelime Sayısı </string>
+    <string name="noktalamaSayi"> Noktalama İsareti Sayisi </string>
+    <string name="sesliHarfSayısi"> Sesli Harf Sayısı </string>
+    <string name="sessizHarfSayısi"> Sesiz Harf Sayısı </string>
+    <string name="Hesapla">Hesapla</string>
+    <string name="Sonuçlar">Sonuçlar :</string>
+
+</resources>
