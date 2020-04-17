@@ -61,6 +61,24 @@
             android:layout_height="wrap_content"
             android:text="@string/noktalamaSayi"
             android:textStyle="bold" />
+        <CheckBox
+            android:id="@+id/chArama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Aranansayısı"
+            android:textStyle="bold"/>
+        <GridLayout
+            android:id="@+id/glBul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <EditText
+                android:id="@+id/etBul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/Aranan"/>
+        </GridLayout>
+
     </TableLayout>
 
     <Button
