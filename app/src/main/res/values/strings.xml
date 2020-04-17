@@ -10,5 +10,7 @@
     <string name="sessizHarfSayısi"> Sesiz Harf Sayısı </string>
     <string name="Hesapla">Hesapla</string>
     <string name="Sonuçlar">Sonuçlar :</string>
+    <string name="Aranan">Aramak isediginiz kelimeyi yazınız</string>
+    <string name="Aranansayısı">Aranan kelime sayısı</string>
 
 </resources>
